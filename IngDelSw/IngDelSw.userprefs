@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="IngDelSw/IngDelSw.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IngDelSw/MainWindow.cs">
+    <Files>
+      <File FileName="IngDelSw/Program.cs" Line="13" Column="33" />
+      <File FileName="IngDelSw/AuthenticationWindow.cs" Line="21" Column="8" />
+      <File FileName="IngDelSw/MainWindow.cs" Line="7" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IngDelSw" expanded="True">
+            <Node name="IngDelSw" expanded="True">
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
