@@ -5,10 +5,10 @@ using System.Runtime.CompilerServices;
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle ("IngDelSw")]
-[assembly: AssemblyDescription ("")]
+[assembly: AssemblyDescription ("Simple User Interface for Software Engineering Project")]
 [assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
-[assembly: AssemblyProduct ("")]
+[assembly: AssemblyCompany ("Bartolomioli Riccardo, Grassi Edoardo, Palladino Luigi")]
+[assembly: AssemblyProduct ("User Interface")]
 [assembly: AssemblyCopyright ("luigi")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]

@@ -9,9 +9,9 @@ namespace IngDelSw
 		public static void Main (string[] args)
 		{
 			Application.Init ();
-			MainWindow win = new MainWindow ();
-			AuthenticationWindow.Main2();
-			win.Show ();
+			Authentication loginScreen = new Authentication ();
+			loginScreen.Show ();
+
 			Application.Run ();
 		}
 	}
