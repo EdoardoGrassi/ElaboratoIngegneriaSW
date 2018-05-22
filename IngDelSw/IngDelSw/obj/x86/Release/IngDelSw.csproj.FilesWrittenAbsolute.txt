@@ -1,0 +1,6 @@
+/home/luigi/Scrivania/Ingegneria_Del_Software/GTKSharp/IngDelSw/IngDelSw/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/luigi/Scrivania/Ingegneria_Del_Software/GTKSharp/IngDelSw/IngDelSw/obj/x86/Release/IngDelSw.gtk-gui.gui.stetic
+/home/luigi/Scrivania/Ingegneria_Del_Software/GTKSharp/IngDelSw/IngDelSw/bin/Release/IngDelSw.exe.mdb
+/home/luigi/Scrivania/Ingegneria_Del_Software/GTKSharp/IngDelSw/IngDelSw/bin/Release/IngDelSw.exe
+/home/luigi/Scrivania/Ingegneria_Del_Software/GTKSharp/IngDelSw/IngDelSw/obj/x86/Release/IngDelSw.exe
+/home/luigi/Scrivania/Ingegneria_Del_Software/GTKSharp/IngDelSw/IngDelSw/obj/x86/Release/IngDelSw.exe.mdb
