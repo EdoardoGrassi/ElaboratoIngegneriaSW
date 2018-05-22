@@ -10,7 +10,7 @@ public partial class MainWindow: Gtk.Window
 		Label labelDiProva = new Label ("Questo è un label di prova.");
 		//Button bottoneDiProva = new Button ("bottone");
 		this.Add (labelDiProva);
-		this.ShowAll ();
+		//this.ShowAll ();
 		this.DeleteEvent += new DeleteEventHandler (OnDeleteEvent);
 	}
 

@@ -5,36 +5,53 @@ using GLib;
 namespace IngDelSw
 {
 
-public class AuthenticationWindow {
+public class AuthenticationWindow : Gtk.Window{
 
-		public static void Main2() {
-		Application.Init();
+		//private Frame mainFrame;
+		//private Frame frame2;
+		//private Alignment alignThis;
 
-		//Create the Window
-		Window myWin = new Window("Terapia Intensiva");
-		myWin.Resize(500,500);
+		public AuthenticationWindow() : base (WindowType.Toplevel)
+		{ 
+			//this.alignThis = new Alignment(0F, 0F, 1F, 1F);
+			//this.alignThis.Name = "Allineatore";
+			//this.Add (alignThis);
+			//this.mainFrame = new Frame ();
+			//this.frame2 = new Frame ();
+			this.Title = "Titolo di prova";
+			Label infoBox1 = new Label();
+			Button commit = new Button ("Commit");
 
-		//Create a label and put some text in it.
-		Label info_box_1 = new Label();
-		info_box_1.Text = "Inserire nome utente e password per ottenere l'accesso.";
+			//tweaking components
+			this.Resize(500,500);
+			infoBox1.Text = "Inserire nome utente e password per ottenere l'accesso.";
+			infoBox1.SetAlignment (0.0f, 0.0f);
+			commit.Add (infoBox1);
 
-		myWin.DeleteEvent += new DeleteEventHandler (WindowCloser);
+			//Events
+			this.DeleteEvent += new DeleteEventHandler (WindowCloser);
 
-		//Add the label to the form
-		myWin.Add(info_box_1);
+			//mainFrame.Add(frame2);
+			//frame2.Add(commit);
 
-		//Show Everything
-		myWin.ShowAll();
+			//Add components to the window
+			this.Add(commit);
+			//mainFrame.Add(infoBox1);
+			commit.ShowAll();
 
-		Application.Run();
-	}
+			//Show / Hide things
 
-	static void WindowCloser(object obj, DeleteEventArgs args)
+			//Show Everything
+			//mainFrame.ShowAll();
+			//frame2.ShowAll ();
+			this.ShowAll();
+		}
+
+	public static void WindowCloser(object obj, DeleteEventArgs args)
 	{
 		SignalArgs sa = (SignalArgs) args;
 		Application.Quit();
 		sa.RetVal = true;
 	}
 }
-
 }

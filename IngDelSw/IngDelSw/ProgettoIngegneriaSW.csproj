@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -64,11 +64,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="gtk-gui\generated.cs" />
-    <Compile Include="MainWindow.cs" />
-    <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AuthenticationWindow.cs" />
+    <Compile Include="Properties\Authentication.cs" />
+    <Compile Include="gtk-gui\IngDelSw.Authentication.cs" />
+    <Compile Include="source\authentication\AuthenticationDatabase.cs" />
+    <Compile Include="source\authentication\AuthenticationToken.cs" />
+    <Compile Include="source\authentication\AuthorizationLevel.cs" />
+    <Compile Include="source\authentication\BaseUser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
